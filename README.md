@@ -38,19 +38,21 @@ Files that were converted successfully will appear in the list. They can then be
 Latex project. If you just want the converted files and nothing else, choose "Java Export -> Export Fonts".
 
 
-####  =Java Export
+####  *Java Export*
 ![selecting export java](docs/readme/java_export_wizard.png?raw=true)
 
 Compile and run example:
 > cd whatever_directory_you_exported_to
+>
 > javac FontExample.java
+>
 > java FontExample
 
 Output:
 ![java export results](docs/readme/java_export_results.png?raw=true)
 
 
-#### =Latexport
+#### *Latexport*
 You'll need to specify how the input fonts will be used in a typeface.
 ![selecting export java](docs/readme/latex_export_wizard.png?raw=true)
 
