@@ -11,7 +11,7 @@ Application for font conversion (OS X only). FontFlinger is mostly glue code tha
 including Ghostscript, Fondu and various Latex utilities. FontFlinger can convert many common
 font files to a format that can be used in Java, LaTex, or other.
 
-Current version supports:
+Compatible input formats:
 - FFIL
 - LWFN
 - OTC
@@ -24,23 +24,25 @@ Current version supports:
 
 Does not work with:
 - bitmap fonts
-- ???
 
-Use:
 
-Open aff and drag font files from finder onto top pane.
+#### Download and Use
+
+A prebuilt version of the app is included: [target/FontFlinger.dmg]("target/FontFlinger.dmg").
+
+After starting app, drag font files from finder into top pane.
 
 ![Drag fonts onto top pane.](docs/readme/step_import.png)
 
 Files that were converted successfully will appear in the list. They can then be exported to a Java or 
-Latex project. (If you just want the converted files, export to java without generated source code).
+Latex project. If you just want the converted files and nothing else, choose "Java Export -> Export Fonts".
 
 
-#### "Export Java"
+####  =Java Export
 ![selecting export java](docs/readme/java_export_wizard.png?raw=true)
 
 Compile and run example:
-> cd <java_example>
+> cd whatever_directory_you_exported_to
 > javac FontExample.java
 > java FontExample
 
@@ -48,7 +50,7 @@ Output:
 ![java export results](docs/readme/java_export_results.png?raw=true)
 
 
-#### "Export LaTex"
+#### =Latexport
 You'll need to specify how the input fonts will be used in a typeface.
 ![selecting export java](docs/readme/latex_export_wizard.png?raw=true)
 
