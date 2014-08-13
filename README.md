@@ -56,10 +56,10 @@ Output:
 You'll need to specify how the input fonts will be used in a typeface.
 ![selecting export java](docs/readme/latex_export_wizard.png?raw=true)
 
-The generated directory structure:
+The generated project files:
 ![latex export files](docs/readme/latex_export_files.png?raw=true)
 
-The resulting typeset document:
+After typesetting with LaTex:
 ![latex resulting document](docs/readme/latex_export_results.png?raw=true)
 
 
