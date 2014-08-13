@@ -1,0 +1,14 @@
+# Respectively: hidden files other than '.gitignore' and emacs cruft files.
+.*
+!.gitignore
+*~
+
+# IDE project files. 
+*.iml
+
+scratch/
+ext/
+ant
+
+target/*
+!target/*.dmg
