@@ -17,7 +17,7 @@ import bits.layout.*;
 public class FontPreviewer extends JPanel implements FontTester {
 
     private static final float DEFAULT_FONT_SIZE = 54.0f;
-    private static String DEFAULT_TEXT = "ABCDEFGHIJKLM\nNOPQRSTUVWXYZ\nabcdefghijklm\nnopqrstuvwxyz\n0123456789\n.,!?@#$%^&*¤¦¨©"; 
+    private static String DEFAULT_TEXT = "ABCDEFGHIJKLM\nNOPQRSTUVWXYZ\nabcdefghijklm\nnopqrstuvwxyz\n0123456789\n.,!?@#$%^&*Â¤Â¦Â¨Â©"; 
     
 
     private final JTextArea    mTextArea;
